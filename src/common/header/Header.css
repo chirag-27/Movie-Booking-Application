@@ -1,0 +1,25 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+.logo-css{
+    background-color: #ff7f7f;
+    height: 35px;
+    float: left;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+    .logo-css {
+      animation: logo-css-spin infinite 8s linear;
+    }
+  }
+
+@keyframes logo-css-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
